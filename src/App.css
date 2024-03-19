@@ -1,0 +1,80 @@
+.App {
+  text-align: center;
+  font-family: cursive;
+  color: rgb(27, 6, 78);
+}
+
+h1 {
+  font-size: 50px;
+}
+
+input {
+  font-size: 18px;
+  width: 300px;
+  padding: 8px;
+  margin: 5px;
+  border-radius: 5px;
+  border-style: none;
+  color: rgb(23, 4, 49);
+  /* background-color: rgb(130, 133, 214); */
+  background-color: white;
+}
+
+input::placeholder {
+  color: black;
+  opacity: 0.5;
+}
+
+button {
+  font-size: 15px;
+  margin: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 5px;
+  border-style: none;
+  /* background-color: rgb(136, 186, 201);
+  color: rgb(10, 48, 63); */
+  background-color: rgb(67, 82, 84);
+  color: white;
+}
+
+
+
+button:hover {
+  cursor: pointer;
+}
+
+hr {
+  height: 2px;
+  border: none;
+  background-color: grey;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #3c4e60;
+  font-family: fantasy;
+}
+
+ul {
+  display: grid;
+}
+
+li {
+  font-size: 23px;
+  margin: 10px;
+  text-align: left;
+  width: 300px;
+}
+
+li:hover {
+  cursor: pointer;
+}
+
+.task {
+  display: flex;
+  align-items: center;
+}
